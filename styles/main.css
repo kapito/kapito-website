@@ -9,36 +9,11 @@
     left: 0;
     width: 100vw;
     height: 100vh;
+
     background-color: #444;
 }
 
-.links {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    height: 250px;
-    transform: translateX(-50%) translateY(-50%);
-    background-color: #555;
-}
-
-.logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    height: 125px;
-    transform: translateX(-50%) translateY(-50%);
-    background-color: #666;
-}
-
-.logo-text {
-    font-family: Ubuntu;
-    font-size: 125px;
-
-    position: relative;
-    top: -15px; /* align vertically */
-}
+/* --------------- */
 
 .github-plug {
     position: absolute;
@@ -48,4 +23,91 @@
     color: #fff;
     padding: 2px 5px; /* 2px vertical, 5px horizontal */
     font-family: Ubuntu;
+}
+
+/* --------------- */
+
+.links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 600px;
+    transform: translateX(-50%) translateY(-50%);
+
+    background-color: #555;
+}
+
+/* --------------- */
+
+.link-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 124px;
+    transform: translateX(-50%) translateY(-50%);
+
+    background-color: #000;
+}
+
+.link-logo-text {
+    font-family: Ubuntu;
+    font-size: 125px;
+    color: #fff;
+
+    position: relative;
+    top: -20px; /* align vertically */
+}
+
+/* --------------- */
+
+.links-container-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(50% - 62px);
+
+    background-color: #777;
+}
+
+.link-github {
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    width: 94px;
+    height: 94px;
+}
+
+.link-github-img {
+    width: 94px;
+    height: 94px;
+}
+
+/* --------------- */
+
+.links-container-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(50% - 62px);
+
+    background-color: #777;
+}
+
+.link-youtube {
+    position: absolute;
+    top: 0;
+    right: 200px;
+    width: 94px;
+    height: 94px;
+
+    background-color: #fff;
+}
+
+.link-youtube-img {
+    width: 94px;
+    height: 94px;
 }
