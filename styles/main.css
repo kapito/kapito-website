@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url("fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color: #555;
+}
+
+.github-plug {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 2px 5px; /* 2px vertical, 5px horizontal */
+    font-family: Ubuntu;
+}
